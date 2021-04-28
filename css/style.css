@@ -24,6 +24,12 @@
   padding: 0;
   font-family: "Calisto-MT"; }
 
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
 .site-container {
   width: 1115px;
   margin: 0 auto; }
@@ -859,3 +865,13 @@
       .footer-bottom-inner p {
         font-size: 14px;
         margin-bottom: 20px; } }
+
+
+
+
+
+
+
+
+
+        
